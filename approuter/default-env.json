@@ -1,0 +1,37 @@
+{
+    "VCAP_SERVICES": {
+        "xsuaa": [
+            {
+                "name": "XSUAA",
+                "instance_name": "XSUAA",
+                "label": "xsuaa",
+                "tags": [
+                    "xsuaa",
+                    "endpoint:https://api.cf.us10-001.hana.ondemand.com",
+                    "org:016d65f8trial",
+                    "space:dev"
+                ],
+                "plan": "application",
+                "credentials": {
+                    "apiurl": "https://api.authentication.us10.hana.ondemand.com",
+                    "clientid": "sb-pavan!t354762",
+                    "clientsecret": "8f62d91a-a2b7-4782-87aa-57aade8ff635$dVRf3bxBGDxvRFf0tR7oXKsOVST-njpwI0OmM3DgiP0=",
+                    "credential-type": "binding-secret",
+                    "identityzone": "016d65f8trial",
+                    "identityzoneid": "f6f3aafd-78d4-4aaf-8516-b53a7cb2a300",
+                    "sburl": "https://internal-xsuaa.authentication.us10.hana.ondemand.com",
+                    "serviceInstanceId": "b9f13bb8-590e-4819-a1f1-51b08eaef8a4",
+                    "service_key_name": "key",
+                    "subaccountid": "f6f3aafd-78d4-4aaf-8516-b53a7cb2a300",
+                    "tenantid": "f6f3aafd-78d4-4aaf-8516-b53a7cb2a300",
+                    "tenantmode": "dedicated",
+                    "uaadomain": "authentication.us10.hana.ondemand.com",
+                    "url": "https://016d65f8trial.authentication.us10.hana.ondemand.com",
+                    "verificationkey": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAt5zxN71lHuCLahc3Y5D8\nOIkOK8WjcGduqvGGOjpG6gcJ/IiXc+3PrjhfPGD/N4yYYc9eHidBYUgb7N8z6X+v\nhZV/wl25SyGYhqH4VsNloTBB4EhAAhok6zZET/yQdc7ic+6mLN/gy4I3s2qLu7My\nJPIbmWSpXPuFKUdXgh0ClRQoikdyCubtVbT5bV3HMv00FkioBV9SQYCqqOfw4uU5\nhpWaDe4DeGO9SewOka3VpyO9Rqd7OK7u6QuSVz0GXbvRyas0KOujnPDDdTLONJMx\nAqIzDPouEKAFTkheZJo9R7M84E5KjRBVqEDIzuPON5jLelkKhF4rJiZmTks6dDsA\nFwIDAQAB\n-----END PUBLIC KEY-----",
+                    "xsappname": "pavan!t354762",
+                    "zoneid": "f6f3aafd-78d4-4aaf-8516-b53a7cb2a300"
+                }
+            }
+        ]
+    }
+}
